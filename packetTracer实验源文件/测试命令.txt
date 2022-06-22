@@ -1,0 +1,21 @@
+10．检查和诊断路由器配置的show命令有哪些常用参数？
+答：（1）show controllers s0/0 显示接口的DTE或DCE状态；
+（2）show frame-relay Lmi 在串行接口上设置LMI类型；
+（3）show frame-relay map 显示静态的和动态的网络层到PVC的映射；
+（4）show frame-relay pvc 显示路由器上己配置的PVC和DLCI号；
+（5）show history 默认时显示最近输人的10个命令；
+（6）show interface fa0/0显示接口fa0/0上的统计信息；
+（7）show ip 显示该交换机的IP配置；
+（8）show ip access-list 只显示IP访问列表；
+（9）show ip interface 显示在路由器上配置的路由选择协议及与每个路由选择协议相关的定时器；
+（10）show ip route 显示IP路由表；
+（11）show protocols 显示在每个接口上配置的被动路由协议和网络地址；
+（12）show running-config 显示当前在该路由器上运行的配置；
+（13）show startup-config 显示保存在NVRAM中的备份配置；
+（14）show vlan 显示所有己配置的VLAN；
+（15）show vlan-membership 显示所有端口的VLAN分配；
+（16）show vtp 显示一台交换机的VTP配置；
+（17）show cdp interface 显示启用了CDP的特定接口；
+（18）show cdp neighbor 显示直连的相邻设备及其详细信息；
+（19）show cdp neighbor detail 显示IP地址和IOS版本和类型，并且包括show cdp；
+（20）neighbor命令显示的所有信息。
